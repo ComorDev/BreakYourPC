@@ -8,7 +8,7 @@
 using namespace std;
 
 int main(){
-    
+    setlocale(LC_ALL, "rus");
     cout << "Напиши да, если соглашаешься, на то, что я не буду виноват не в чем!";
     cout << "Или пиши нет";
     string a;
